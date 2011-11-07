@@ -1,1 +1,26 @@
 A flv player.
+
+= flashvars =
+ source=x.flv
+ skin=link
+ autoPlay=0|1 (default:1)
+ autoRewind=0|1 (default:1)
+ debug=0|1 (default:0)
+ loadDelayTime=(0~INFINITY) (default:1000,  unit:ms)
+ loop=0|1 (default:0)
+ preview=link (default:'')
+ reloadForSame=0|1 (default:0)
+ scaleMode=exactFit|maintainAspectRatio|noScale (default:exactFit)
+ skinAutoHide=0|1 (default:1)
+ skinBackgroundAlpha=(0.0~1.0) (default:0.8)
+ skinBackgroundColor=(0x000000~0xFFFFFF) (default:0x333333)
+ skinFadeTime=(0~INFINITY) (default:500,  unit:ms)
+ skinUnder=0|1 (default:0)
+ volume=(0.0~1.0) (default:1.0)
+
+
+= methods =
+ playVideo(path)
+ stopVideo
+ pauseVideo
+ resumeVideo
